@@ -1,0 +1,151 @@
+
+.container-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-image: url("./green-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 330vh;
+    padding: 20px;
+}
+
+
+.performance-dashboard {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 1400px;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    max-height: 600px;
+    width: 100%;
+    overflow-x: auto;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #007bff;
+    color: #fff;
+}
+
+td {
+    background: #f8f9fa;
+}
+
+
+.department-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1400px;
+    margin-bottom: 20px;
+}
+
+.department-counts, .department-quality {
+    width: 48%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.department-performance {
+    width: 100%;
+    max-width: 1400px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.score-high {
+    color: green;
+    font-weight: bold;
+}
+
+.score-medium {
+    color: orange;
+    font-weight: bold;
+}
+
+.score-low {
+    color: red;
+    font-weight: bold;
+}
+
+
+.chart-container {
+    position: relative;
+    width: 700px;
+    margin-top: 40px;
+}
+
+.pie-chart-container{
+    position: relative;
+    right: 530px;
+    width: 400px;
+    top: 40px;
+
+}
+
+
+.bar-chart-container{
+    position: relative;
+    bottom: 430px;
+    width: 700px;
+    left: 350px;
+
+}
+.department-section {
+    position: relative;
+    left: 350px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 4500px;
+    margin-bottom: 20px;
+}
+
+.export-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .export-button:hover {
+    background-color: #0056b3;
+  }
+
+
