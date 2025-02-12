@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/simplotel-task/static/css/main.a48e167c.css",
+    "main.js": "/simplotel-task/static/js/main.6d956d5e.js",
+    "static/js/146.108d9180.chunk.js": "/simplotel-task/static/js/146.108d9180.chunk.js",
+    "static/media/image.jpg": "/simplotel-task/static/media/image.3e9086fe822af3759372.jpg",
+    "static/media/green-background.jpg": "/simplotel-task/static/media/green-background.4a9e40d4089644d43ba4.jpg",
+    "index.html": "/simplotel-task/index.html",
+    "main.a48e167c.css.map": "/simplotel-task/static/css/main.a48e167c.css.map",
+    "main.6d956d5e.js.map": "/simplotel-task/static/js/main.6d956d5e.js.map",
+    "146.108d9180.chunk.js.map": "/simplotel-task/static/js/146.108d9180.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a48e167c.css",
+    "static/js/main.6d956d5e.js"
+  ]
+}
